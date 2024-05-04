@@ -148,6 +148,5 @@ def calculator():
        else:
            print('Sorry, invalid character')
 
-
 if __name__ == '__main__':
    calculator()
