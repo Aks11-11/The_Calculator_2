@@ -147,6 +147,5 @@ def calculator():
            print('Ans = ', results[0], ' total inputs: ', results[1])
        else:
            print('Sorry, invalid character')
-
 if __name__ == '__main__':
    calculator()
