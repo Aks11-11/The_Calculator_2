@@ -132,7 +132,6 @@ def calculator():
        if choice == 'q':
            quit = True
            continue
-
        if choice == 'a':
            results = addition()
            print('Ans = ', results[0], ' total inputs: ', results[1])
