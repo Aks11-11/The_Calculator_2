@@ -114,8 +114,6 @@ def division():
        print(f'Current result: {ans}')
        values_entered += 1
    return [ans, values_entered]
-
-
 def calculator():
    quit = False
    while not quit:
@@ -126,9 +124,7 @@ def calculator():
        print('Enter \'m\' for multiplication')
        print('Enter \'d\' for division')
        print('Enter \'q\' to quit')
-
        choice = input('Selection: ')
-
        if choice == 'q':
            quit = True
            continue
